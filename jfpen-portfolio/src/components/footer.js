@@ -1,25 +1,34 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
-    return (
-        <footer className="footer">
-            <div className="social-media-links">
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                    Facebook
-                </a>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                    Twitter
-                </a>
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                    Instagram
-                </a>
+  return (
+    <footer className="bg-primary text-white text-center py-4">
+      <Container>
+        <Row>
+          <Col>
+            <div className="social-media-links mb-3">
+              <a href="https://github.com/JamesFloyd-Pen" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+                Github
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+                Twitter
+              </a>
+              <a href="https://www.linkedin.com/in/james-floyd-2316561a1/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+                LinkedIn
+              </a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+                Instagram
+              </a>
+              <p className="text-white mx-2">J@Floyd.com</p>
             </div>
-            <p>&copy; 2023 JFPen Portfolio. All rights reserved.</p>
-        </footer>
-    );
-};
+            <p>&copy; Made by James Floyd. 2023 JFPen Portfolio. All rights reserved.</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  );
+}
 
 export default Footer;
