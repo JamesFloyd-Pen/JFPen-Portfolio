@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../App.css';
+
 
 function Footer() {
   return (
-    <footer className="bg-primary text-white text-center py-4">
+    <footer className="Footer-Background text-center py-4">
       <Container>
         <Row>
           <Col>
@@ -21,7 +23,7 @@ function Footer() {
               <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
                 Instagram
               </a>
-              <p className="text-white mx-2">J@Floyd.com</p>
+              <p className="text-black mx-2">J@Floyd.com</p>
             </div>
             <p>&copy; Made by James Floyd. 2023 JFPen Portfolio. All rights reserved.</p>
           </Col>

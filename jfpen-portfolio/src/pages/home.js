@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Card, Button, Container, Row, Col, Form } from 'react-bootstrap';
+import emailjs from 'emailjs-com';
 import '../App.css';
 import Base32h from '../components/img/Base32H.png';
 import PenguinIcon from '../components/img/logoPic192.png';
@@ -7,6 +8,9 @@ import HelmGif from '../components/img/helm-demo-3.gif';
 import ReactIcon from '../components/img/react-original.svg';
 import PythonIcon from '../components/img/python-original.svg';
 import JavaIcon from '../components/img/java-original.svg';
+import JavaScript from '../components/img/javascript-plain.svg';
+import CSS from '../components/img/css3-original.svg';
+
 
 
 function Home() {  
@@ -16,8 +20,22 @@ function Home() {
         { image: Base32h, name: 'Base32h', description: 'A base32 encoder/decoder', link: 'https://github.com/JamesFloyd-Pen/base32h.java' }
       ];
 
+    const form = useRef();
+      
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_z7ucyd9', 'template_idfzvjb', form.current, '3Q0L0FVBQp34r6lmK')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
+
     return (
-        <div>
+        <div className="App-Background">
             <h1>Home</h1>
 
             <section id="about">
@@ -38,6 +56,14 @@ function Home() {
                         </Col>
                         <Col md={4} className="text-center">
                         <img src={JavaIcon} alt="Java" width="100" height="100" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col md={4} className="text-center">
+                        <img src={JavaScript} alt="React" width="100" height="100" />
+                        </Col>
+                        <Col md={4} className="text-center">
+                        <img src={CSS} alt="CSS" width="100" height="100" />
                         </Col>
                     </Row>
                     </Container>
@@ -70,7 +96,7 @@ function Home() {
             <Container>
             <Row>
                 <Col md={6} className="mx-auto">
-                <Form>
+                <Form ref={form} onSubmit={sendEmail}>
                     <Form.Group controlId="formName">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" placeholder="Enter your name" />

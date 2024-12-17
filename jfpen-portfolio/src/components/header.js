@@ -2,10 +2,11 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PenguinIcon from './img/logoPic192.png';
+import '../App.css';
 
 function Header() {
   return (
-    <Navbar bg="primary" expand="lg">
+    <Navbar className="NavBar-Background" expand="lg">
       <Navbar.Brand href="#home">
         <img
 
