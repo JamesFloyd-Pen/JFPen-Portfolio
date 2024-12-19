@@ -20,7 +20,7 @@ function Footer() {
               <a href="https://www.linkedin.com/in/james-floyd-2316561a1/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
                 LinkedIn
               </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+              <a href="https://www.instagram.com/commanderpip/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
                 Instagram
               </a>
               <p className="text-black mx-2">J@Floyd.com</p>

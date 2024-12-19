@@ -1,4 +1,5 @@
-import React from 'react';
+import { React, useEffect} from 'react';
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import Button from '@mui/material/Button';
 import Header from './components/header';
@@ -7,6 +8,18 @@ import Home from './pages/home';
 
 
 function App() {
+  useEffect(() => {
+    const updatePageHeight = () => {
+      document.documentElement.style.setProperty('--page-height', `${document.body.scrollHeight}px`);
+    };
+    updatePageHeight();
+    window.addEventListener('resize', updatePageHeight);
+    return () => window.removeEventListener('resize', updatePageHeight);
+  }, []);
+
+
+
+
   return (
     <div className="App">
       <Router>

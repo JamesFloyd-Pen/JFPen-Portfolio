@@ -5,7 +5,6 @@
   background-color: rgb(6, 6, 85);
   color: white;
   padding: 10px;
-  text-align: center;
 }
 
 .NavBar-Background .navbar-brand,
@@ -16,6 +15,21 @@
 .NavBar-Background .nav-link:hover {
   color: lightgray; /* This sets the hover color for the nav links */
 }
+
+.NavBar-Background .navbar-nav {
+  margin: 0 auto; /* Center the nav links */
+}
+
+.ml-3 {
+  margin-left: 1rem; /* Add spacing to the left of the image */
+}
+
+.center-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 /* Body */
 
 .App {
@@ -31,6 +45,22 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Project-Image{
+  aspect-ratio: 2 / 1;
+}
+
+.Project-Card{
+  background-color: #f0f8ff; /* Icy white background color */
+  border: 2px solid #71a6d2; /* Iceberg blue border color */
+  border-radius: 10px; /* Optional: Add some border radius for a smoother look */
+  padding: 20px; /* Optional: Add some padding inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+
+.section-spacing {
+  margin-top: 15rem; /* Adjust the value as needed */
 }
 
 /* Footer */
@@ -67,12 +97,12 @@
   color: white;
   font-size: 1.5em;
   user-select: none;
-  animation: fall 10s linear infinite, drift 5s ease-in-out infinite;
+  animation: fall var(--fall-duration, 10s) linear infinite, drift 5s ease-in-out infinite;
 }
 
 @keyframes fall {
   to {
-    transform: translateY(100vh);
+    transform: translateY(calc(var(--page-height) + 50px));
   }
 }
 
