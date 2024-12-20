@@ -47,13 +47,20 @@
   color: white;
 }
 
+.About-Card.card{
+  background-color: #00008b; /* Dark blue background color */
+  color: white; /* White text color */
+  padding: 20px; /* Optional: Add some padding inside the card */
+  border-radius: 10px; /* Optional: Add some border radius for a smoother look */
+}
+
 .Project-Image{
   aspect-ratio: 2 / 1;
 }
 
 .Project-Card{
-  background-color: #f0f8ff; /* Icy white background color */
-  border: 2px solid #71a6d2; /* Iceberg blue border color */
+  background-color: white !important; /* Icy white background color */
+  border: 2px solid blue !important; /* Iceberg blue border color */
   border-radius: 10px; /* Optional: Add some border radius for a smoother look */
   padding: 20px; /* Optional: Add some padding inside the card */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
@@ -79,6 +86,17 @@
 .Footer-Background .social-media-links a:hover {
   color: gray !important; /* Optional: Set the hover color to gray */
 }
+
+.wide-container {
+  max-width: 100% !important; /* Adjust as needed */
+  width: 100%; /* Ensure it spans the available space */
+}
+
+.wide-column {
+  width: 100%;
+}
+
+
 
 /* Snowflakes */
 .snowflakes {

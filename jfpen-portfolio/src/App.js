@@ -1,4 +1,4 @@
-import { React, useEffect} from 'react';
+import { React, useEffect } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import Button from '@mui/material/Button';
@@ -23,27 +23,31 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header/>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
         <Footer />
       </Router>
-      <div className="snowflakes" aria-hidden="true">
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❄</div>
-      </div>
-
     </div>
   );
 }
 
 export default App;
+
+
+/*
+            <div className="snowflakes" aria-hidden="true">
+                <div className="snowflake">❅</div>
+                <div className="snowflake">❅</div>
+                <div className="snowflake">❆</div>
+                <div className="snowflake">❄</div>
+                <div className="snowflake">❅</div>
+                <div className="snowflake">❆</div>
+                <div className="snowflake">❄</div>
+                <div className="snowflake">❅</div>
+                <div className="snowflake">❆</div>
+                <div className="snowflake">❄</div>
+            </div>
+
+*/

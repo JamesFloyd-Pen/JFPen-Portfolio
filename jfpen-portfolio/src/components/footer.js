@@ -14,7 +14,7 @@ function Footer() {
               <a href="https://github.com/JamesFloyd-Pen" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
                 Github
               </a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+              <a href="https://x.com/JamesFloydIV" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
                 Twitter
               </a>
               <a href="https://www.linkedin.com/in/james-floyd-2316561a1/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">

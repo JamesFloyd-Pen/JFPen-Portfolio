@@ -39,13 +39,12 @@ function Home() {
 
     return (
         <div className="App-Background">
-
             <section id="about" className="section-spacing">
-            <h1>About Me</h1>
+                <h1>About Me</h1>
                 <Container>
                     <Row className="justify-content-center">
                         <Col md={8}>
-                            <Card className="mb-4">
+                            <Card className="mb-4 About-Card">
                                 <Card.Body>
                                     <Card.Text>
                                         I am a 2020 graduate of Florida Polytechnic University with a passion for technology, games, and penguins, which inspired me to pursue a career in software development. As a generalist software developer, I bring adaptability, creativity, and a strong eagerness to contribute to the industry.
@@ -98,7 +97,7 @@ function Home() {
                     <Row>
                         {projectList.map((project, index) => (
                             <Col key={index} md={4} className="mb-4">
-                                <Card>
+                                <Card className="Project-Card">
                                     <Card.Img variant="top" src={project.image} className="Project-Image" />
                                     <Card.Body>
                                         <Card.Title>{project.name}</Card.Title>
@@ -115,13 +114,13 @@ function Home() {
 
             <section id="contact" className="section-spacing">
                 <h2>Contact</h2>
-                <Container>
+                <Container className="wide-container">
                     <Row>
-                        <Col md={10} className="mx-auto">
+                        <Col md={12} className="wide-column mx-auto">
                             <Form ref={form} onSubmit={sendEmail}>
                                 <Form.Group controlId="formName">
                                     <Form.Label>Name</Form.Label>
-                                    <Form.Control type="text" name="from_name" placeholder="Enter your name" />
+                                    <Form.Control className="w-100" type="text" name="from_name" placeholder="Enter your name" />
                                 </Form.Group>
 
                                 <Form.Group controlId="formEmail">
@@ -131,7 +130,7 @@ function Home() {
 
                                 <Form.Group controlId="formMessage">
                                     <Form.Label>Message</Form.Label>
-                                    <Form.Control as="textarea" name="message"  rows={3} placeholder="Enter your message" />
+                                    <Form.Control as="textarea" name="message" rows={3} placeholder="Enter your message" />
                                 </Form.Group>
 
                                 <Button variant="primary" type="submit">
@@ -142,6 +141,11 @@ function Home() {
                     </Row>
                 </Container>
             </section>
+
+            <br></br>
+
+
+
         </div>
     );
 }
