@@ -47,7 +47,7 @@ function Home() {
                             <Card className="mb-4 About-Card">
                                 <Card.Body>
                                     <Card.Text>
-                                        I am a 2020 graduate of Florida Polytechnic University with a passion for technology, games, and penguins, which inspired me to pursue a career in software development. As a generalist software developer, I bring adaptability, creativity, and a strong eagerness to contribute to the industry.
+                                        I am a 2020 graduate of Florida Polytechnic University. My passion for technology and games inspired me to pursue a career in software development. As a generalist software developer, I bring adaptability, creativity, and a strong eagerness to contribute to the industry.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
