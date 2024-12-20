@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/JamesFloyd-Pen/JFPen-Portfolio/static/css/main.e6caca51.css",
+    "main.js": "/JamesFloyd-Pen/JFPen-Portfolio/static/js/main.114f8ecc.js",
+    "static/js/488.26585165.chunk.js": "/JamesFloyd-Pen/JFPen-Portfolio/static/js/488.26585165.chunk.js",
+    "static/media/helm-demo-3.gif": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/helm-demo-3.1136d8e0511c8a3e9ece.gif",
+    "static/media/logoPic192.png": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/logoPic192.d3df4311a77c7d2c1353.png",
+    "static/media/Base32H.png": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/Base32H.322de3aaa0c4c8578255.png",
+    "static/media/react-original.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/react-original.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/python-original.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/python-original.849d0b2b5f1ec20f077dd267498bd536.svg",
+    "static/media/bootstrap-original.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/bootstrap-original.1f1d6bd3811dece9cf8ed729700cf21e.svg",
+    "static/media/java-original.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/java-original.a751bad6c81431ab4dd6fa6632a65540.svg",
+    "static/media/javascript-plain.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/javascript-plain.bacc3387f463f5b56f433827347c6155.svg",
+    "static/media/typescript-plain.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/typescript-plain.76fe4b0a77bb1549ec20379b6a6d81f5.svg",
+    "index.html": "/JamesFloyd-Pen/JFPen-Portfolio/index.html",
+    "static/media/css3-original.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/css3-original.39769a8bd378bf410d6b381a8d88fa35.svg",
+    "static/media/dart-original.svg": "/JamesFloyd-Pen/JFPen-Portfolio/static/media/dart-original.9e9f20db567adbfe408b388eefa19b1b.svg",
+    "main.e6caca51.css.map": "/JamesFloyd-Pen/JFPen-Portfolio/static/css/main.e6caca51.css.map",
+    "main.114f8ecc.js.map": "/JamesFloyd-Pen/JFPen-Portfolio/static/js/main.114f8ecc.js.map",
+    "488.26585165.chunk.js.map": "/JamesFloyd-Pen/JFPen-Portfolio/static/js/488.26585165.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6caca51.css",
+    "static/js/main.114f8ecc.js"
+  ]
+}
