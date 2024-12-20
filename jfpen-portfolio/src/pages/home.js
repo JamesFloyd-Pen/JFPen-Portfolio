@@ -96,13 +96,13 @@ function Home() {
                 <Container>
                     <Row>
                         {projectList.map((project, index) => (
-                            <Col key={index} md={4} className="mb-4">
-                                <Card className="Project-Card">
+                            <Col key={index} md={4} className="mb-4 d-flex">
+                                <Card className="Project-Card flex-grow-1 d-flex flex-column">
                                     <Card.Img variant="top" src={project.image} className="Project-Image" />
-                                    <Card.Body>
+                                    <Card.Body className="flex-grow-1 d-flex flex-column">
                                         <Card.Title>{project.name}</Card.Title>
                                         <Card.Text>{project.description}</Card.Text>
-                                        <Button variant="primary" href={project.link} target="_blank" rel="noopener noreferrer">View Project</Button>
+                                        <Button variant="primary" href={project.link} target="_blank" rel="noopener noreferrer" className="mt-auto">View Project</Button>
                                     </Card.Body>
                                 </Card>
                             </Col>
