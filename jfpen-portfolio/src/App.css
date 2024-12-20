@@ -9,19 +9,19 @@
 
 .NavBar-Background .navbar-brand,
 .NavBar-Background .nav-link {
-  color: white; /* This sets the text color for the brand and nav links */
+  color: white; 
 }
 
 .NavBar-Background .nav-link:hover {
-  color: lightgray; /* This sets the hover color for the nav links */
+  color: lightgray; 
 }
 
 .NavBar-Background .navbar-nav {
-  margin: 0 auto; /* Center the nav links */
+  margin: 0 auto; 
 }
 
 .ml-3 {
-  margin-left: 1rem; /* Add spacing to the left of the image */
+  margin-left: 1rem; 
 }
 
 .center-nav {
@@ -48,10 +48,10 @@
 }
 
 .About-Card.card{
-  background-color: #00008b; /* Dark blue background color */
-  color: white; /* White text color */
-  padding: 20px; /* Optional: Add some padding inside the card */
-  border-radius: 10px; /* Optional: Add some border radius for a smoother look */
+  background-color: #00008b; 
+  color: white; 
+  padding: 20px; 
+  border-radius: 10px;
 }
 
 .Project-Image{
@@ -59,126 +59,39 @@
 }
 
 .Project-Card{
-  background-color: white !important; /* Icy white background color */
-  border: 2px solid blue !important; /* Iceberg blue border color */
-  border-radius: 10px; /* Optional: Add some border radius for a smoother look */
-  padding: 20px; /* Optional: Add some padding inside the card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+  background-color: white !important; 
+  border: 2px solid blue !important; 
+  border-radius: 10px;
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .section-spacing {
-  margin-top: 15rem; /* Adjust the value as needed */
+  margin-top: 15rem; 
 }
 
 /* Footer */
 
 .Footer-Background {
-  background-color: white; /* Ensure the background is white */
-  color: black; /* Set the default text color to black */
+  background-color: white;
+  color: black; 
   padding: 10px;
   text-align: center;
 }
 
 .Footer-Background .social-media-links a {
-  color: black !important; /* Set the link color to black */
+  color: black !important;
 }
 
 .Footer-Background .social-media-links a:hover {
-  color: gray !important; /* Optional: Set the hover color to gray */
+  color: gray !important; 
 }
 
 .wide-container {
-  max-width: 100% !important; /* Adjust as needed */
-  width: 100%; /* Ensure it spans the available space */
+  max-width: 100% !important; 
+  width: 100%; 
 }
 
 .wide-column {
   width: 100%;
-}
-
-
-
-/* Snowflakes */
-.snowflakes {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 9999;
-}
-
-.snowflake {
-  position: absolute;
-  top: -10px;
-  color: white;
-  font-size: 1.5em;
-  user-select: none;
-  animation: fall var(--fall-duration, 10s) linear infinite, drift 5s ease-in-out infinite;
-}
-
-@keyframes fall {
-  to {
-    transform: translateY(calc(var(--page-height) + 50px));
-  }
-}
-
-@keyframes drift {
-  50% {
-    transform: translateX(20px);
-  }
-  100% {
-    transform: translateX(-20px);
-  }
-}
-
-.snowflake:nth-of-type(1) {
-  left: 10%;
-  animation-delay: 0s, 0s;
-}
-
-.snowflake:nth-of-type(2) {
-  left: 20%;
-  animation-delay: 1s, 1s;
-}
-
-.snowflake:nth-of-type(3) {
-  left: 30%;
-  animation-delay: 2s, 2s;
-}
-
-.snowflake:nth-of-type(4) {
-  left: 40%;
-  animation-delay: 3s, 3s;
-}
-
-.snowflake:nth-of-type(5) {
-  left: 50%;
-  animation-delay: 4s, 4s;
-}
-
-.snowflake:nth-of-type(6) {
-  left: 60%;
-  animation-delay: 5s, 5s;
-}
-
-.snowflake:nth-of-type(7) {
-  left: 70%;
-  animation-delay: 6s, 6s;
-}
-
-.snowflake:nth-of-type(8) {
-  left: 80%;
-  animation-delay: 7s, 7s;
-}
-
-.snowflake:nth-of-type(9) {
-  left: 90%;
-  animation-delay: 8s, 8s;
-}
-
-.snowflake:nth-of-type(10) {
-  left: 100%;
-  animation-delay: 9s, 9s;
 }

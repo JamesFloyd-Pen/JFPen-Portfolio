@@ -22,20 +22,3 @@ function App() {
 }
 
 export default App;
-
-
-/*
-            <div className="snowflakes" aria-hidden="true">
-                <div className="snowflake">❅</div>
-                <div className="snowflake">❅</div>
-                <div className="snowflake">❆</div>
-                <div className="snowflake">❄</div>
-                <div className="snowflake">❅</div>
-                <div className="snowflake">❆</div>
-                <div className="snowflake">❄</div>
-                <div className="snowflake">❅</div>
-                <div className="snowflake">❆</div>
-                <div className="snowflake">❄</div>
-            </div>
-
-*/
