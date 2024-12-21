@@ -19,7 +19,7 @@ import Dart from '../components/img/dart-original.svg';
 function Home() {
     const projectList = [
         { image: PenguinIcon, name: 'PenguinPedia', description: 'A penguin encyclopedia', link: 'https://github.com/JamesFloyd-Pen/PenguinPedia-Website' },
-        { image: HelmGif, name: 'Helm', description: 'A project management tool', link: 'https://github.com/JamesFloyd-Pen/Helm' },
+        { image: HelmGif, name: 'Helm', description: 'A gamification Mobile App', link: 'https://github.com/JamesFloyd-Pen/Helm' },
         { image: Base32h, name: 'Base32h', description: 'A base32 encoder/decoder', link: 'https://github.com/JamesFloyd-Pen/base32h.java' }
     ];
 
