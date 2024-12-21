@@ -3,13 +3,13 @@ JSM Hackathon
 
 # Overview
 
-This is my personal portfolio website which showcase my abilities as a software developer. 
+This is my personal portfolio website, which showcases my abilities as a software developer. 
 
 # Technologes used
 
 - React
 - Tailwind CSS
-- MUI Compoments 
+- MUI Components 
 
 # Features
 
