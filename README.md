@@ -20,7 +20,7 @@ This is my personal portfolio website, which showcases my abilities as a softwar
 
 # Link
 
-Visit the website [here](https://jamesfloyd-pen.github.io/JFPen-Portfolio/)
+Visit the website [here](https://jamesfloyd-pen.github.io/JFPen-Portfolio/) Note: currently down.
 
 # Future Enchancement
 - **Particle Effects:** Make seasonal fall effects
